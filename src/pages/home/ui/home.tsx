@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export const Home = () => {
   return (
     <div>
-      <Link to={"/contact"}>
-        <p>To contanct</p>
+      <Link to={"/about"}>
+        <p>To about</p>
       </Link>
-      <p>To contanct</p>
+      <p>To about</p>
     </div>
   );
 };
