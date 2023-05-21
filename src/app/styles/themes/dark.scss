@@ -1,11 +1,24 @@
 .app.dark {
-  --bg-color: #090949;
-  --inverted-bg-color: #e8e8ea;
+  --bg-color: #242824;
+  --inverted-bg-color: #363834;
 
-  --primary-color: #049604;
+  --primary-color: #c4c4cc;
   --secondary-color: #04ff04;
-  --inverted-primary-color: #0232c2;
+
+  --inverted-primary-color: #c4c4cc;
   --inverted-secondary-color: #0449e0;
 
   --bg-theme-swticher: #0115c6;
 }
+
+// .app.dark {
+//   --bg-color: #090949;
+//   --inverted-bg-color: #e8e8ea;
+
+//   --primary-color: #049604;
+//   --secondary-color: #04ff04;
+//   --inverted-primary-color: #0232c2;
+//   --inverted-secondary-color: #0449e0;
+
+//   --bg-theme-swticher: #0115c6;
+// }

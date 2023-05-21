@@ -9,7 +9,6 @@ import cls from "./navbar.module.scss";
 export const Navbar = () => {
   return (
     <div className={classNames(cls.navbar)}>
-      <ThemeSwitcher />
       <div className={classNames(cls.links)}>
         <AppLink to={routerPaths[Routes.MAIN]} theme={AppLinkTheme.SECONDARY}>
           Home
