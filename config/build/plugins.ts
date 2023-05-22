@@ -3,6 +3,7 @@ import path from "path";
 import webpack, { DefinePlugin, HotModuleReplacementPlugin } from "webpack";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import type { BuildOptions } from "./types/config";
+const ESLintPlugin = require("eslint-webpack-plugin");
 
 export const buildPlugins = ({
   paths,
@@ -21,5 +22,6 @@ export const buildPlugins = ({
       __IS_DEV__: JSON.stringify(isDev),
     }),
     new HotModuleReplacementPlugin(),
+    new ESLintPlugin(),
   ];
 };

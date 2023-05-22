@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { LinkProps } from "react-router-dom";
-import { classNames } from "shared/lib/class-names";
+import { classNames } from "shared/lib/classNames/class-names";
 import cls from "./app-link.module.scss";
 
 export enum AppLinkTheme {
